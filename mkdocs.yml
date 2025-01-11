@@ -8,7 +8,6 @@ theme:
   logo: assets/logo.jpg
   favicon: assets/favicon.ico
   # icon:
-  #   logo: fontawesome/solid/w
   features:
     -navigation.footer
   palette:
@@ -48,6 +47,13 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - include-markdown
+
 
 extra:
   social:
